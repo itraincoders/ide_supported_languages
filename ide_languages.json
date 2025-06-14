@@ -2,217 +2,217 @@
   {
     "name": "C (GCC 9.2.0)",
     "id": 50,
-    "codemirror": "text/x-csrc",
+    "code_mirror_mode": "text/x-csrc",
     "content": "#include <stdio.h>\n\nint main() {\n    printf(\"Hello, World!\\n\");\n    return 0;\n}"
   },
   {
     "name": "C++ (G++ 9.2.0)",
     "id": 54,
-    "codemirror": "text/x-c++src",
+    "code_mirror_mode": "text/x-c++src",
     "content": "#include <iostream>\n\nint main() {\n    std::cout << \"Hello, World!\" << std::endl;\n    return 0;\n}"
   },
   {
     "name": "Java (OpenJDK 13.0.1)",
     "id": 62,
-    "codemirror": "text/x-java",
+    "code_mirror_mode": "text/x-java",
     "content": "public class Main {\n    public static void main(String[] args) {\n        System.out.println(\"Hello, World!\");\n    }\n}"
   },
   {
     "name": "Python (3.8.1)",
     "id": 71,
-    "codemirror": "python",
+    "code_mirror_mode": "python",
     "content": "print(\"Hello, World!\")"
   },
   {
     "name": "JavaScript (Node.js 12.14.0)",
     "id": 63,
-    "codemirror": "javascript",
+    "code_mirror_mode": "javascript",
     "content": "console.log(\"Hello, World!\");"
   },
   {
     "name": "TypeScript (3.7.4)",
     "id": 74,
-    "codemirror": "text/typescript",
+    "code_mirror_mode": "text/typescript",
     "content": "const greet = (name: string) => {\n  console.log(`Hello, ${name}!`);\n};\n\ngreet(\"World\");"
   },
   {
     "name": "Go (1.13.5)",
     "id": 60,
-    "codemirror": "text/x-go",
+    "code_mirror_mode": "text/x-go",
     "content": "package main\nimport \"fmt\"\n\nfunc main() {\n    fmt.Println(\"Hello, World!\")\n}"
   },
   {
     "name": "Ruby (2.7.0)",
     "id": 72,
-    "codemirror": "ruby",
+    "code_mirror_mode": "ruby",
     "content": "puts 'Hello, World!'"
   },
   {
     "name": "Rust (1.40.0)",
     "id": 73,
-    "codemirror": "rust",
+    "code_mirror_mode": "rust",
     "content": "fn main() {\n    println!(\"Hello, World!\");\n}"
   },
   {
     "name": "PHP (7.4.1)",
     "id": 68,
-    "codemirror": "application/x-httpd-php",
+    "code_mirror_mode": "application/x-httpd-php",
     "content": "<?php\necho \"Hello, World!\";\n?>"
   },
   {
     "name": "Swift (5.1.3)",
     "id": 83,
-    "codemirror": "swift",
+    "code_mirror_mode": "swift",
     "content": "print(\"Hello, World!\")"
   },
   {
     "name": "Kotlin (1.3.70)",
     "id": 78,
-    "codemirror": "text/x-kotlin",
+    "code_mirror_mode": "text/x-kotlin",
     "content": "fun main() {\n    println(\"Hello, World!\")\n}"
   },
   {
     "name": "Scala (2.13.1)",
     "id": 81,
-    "codemirror": "text/x-scala",
+    "code_mirror_mode": "text/x-scala",
     "content": "object Main extends App {\n  println(\"Hello, World!\")\n}"
   },
   {
     "name": "C# (Mono 6.6.0.161)",
     "id": 51,
-    "codemirror": "text/x-csharp",
+    "code_mirror_mode": "text/x-csharp",
     "content": "using System;\n\nclass Program {\n  static void Main() {\n    Console.WriteLine(\"Hello, World!\");\n  }\n}"
   },
   {
     "name": "Pascal (FPC 3.0.4)",
     "id": 53,
-    "codemirror": "text/x-pascal",
+    "code_mirror_mode": "text/x-pascal",
     "content": "program Hello;\nbegin\n  writeln('Hello, World!');\nend."
   },
   {
     "name": "Perl (5.28.1)",
     "id": 69,
-    "codemirror": "perl",
+    "code_mirror_mode": "perl",
     "content": "print \"Hello, World!\\n\";"
   },
   {
     "name": "Bash (5.0.0)",
     "id": 46,
-    "codemirror": "shell",
+    "code_mirror_mode": "shell",
     "content": "echo \"Hello, World!\""
   },
   {
     "name": "Objective-C (Clang 11.0.0)",
     "id": 52,
-    "codemirror": "text/x-objectivec",
+    "code_mirror_mode": "text/x-objectivec",
     "content": "#import <Foundation/Foundation.h>\n\nint main() {\n  @autoreleasepool {\n    NSLog(@\"Hello, World!\");\n  }\n  return 0;\n}"
   },
   {
     "name": "Lua (5.3.5)",
     "id": 65,
-    "codemirror": "lua",
+    "code_mirror_mode": "lua",
     "content": "print(\"Hello, World!\")"
   },
   {
     "name": "R (3.6.1)",
     "id": 79,
-    "codemirror": "r",
+    "code_mirror_mode": "r",
     "content": "print(\"Hello, World!\")"
   },
   {
     "name": "SQL (SQLite 3.27.2)",
     "id": 82,
-    "codemirror": "sql",
+    "code_mirror_mode": "sql",
     "content": "SELECT 'Hello, World!';"
   },
   {
     "name": "D (DMD 2.089.1)",
     "id": 55,
-    "codemirror": "d",
+    "code_mirror_mode": "d",
     "content": "import std.stdio;\n\nvoid main() {\n    writeln(\"Hello, World!\");\n}"
   },
   {
     "name": "Groovy (2.5.6)",
     "id": 76,
-    "codemirror": "groovy",
+    "code_mirror_mode": "groovy",
     "content": "println 'Hello, World!'"
   },
   {
     "name": "Tcl (8.6.9)",
     "id": 70,
-    "codemirror": "tcl",
+    "code_mirror_mode": "tcl",
     "content": "puts \"Hello, World!\""
   },
   {
     "name": "Haskell (GHC 8.8.1)",
     "id": 58,
-    "codemirror": "haskell",
+    "code_mirror_mode": "haskell",
     "content": "main = putStrLn \"Hello, World!\""
   },
   {
     "name": "Fortran (gfortran 9.2.0)",
     "id": 59,
-    "codemirror": "fortran",
+    "code_mirror_mode": "fortran",
     "content": "program hello\n  print *, \"Hello, World!\"\nend program hello"
   },
   {
     "name": "Elixir (1.9.1)",
     "id": 84,
-    "codemirror": "elixir",
+    "code_mirror_mode": "elixir",
     "content": "IO.puts \"Hello, World!\""
   },
   {
     "name": "Clojure (1.10.1)",
     "id": 75,
-    "codemirror": "clojure",
+    "code_mirror_mode": "clojure",
     "content": "(println \"Hello, World!\")"
   },
   {
     "name": "OCaml (4.09.0)",
     "id": 64,
-    "codemirror": "mllike",
+    "code_mirror_mode": "mllike",
     "content": "print_endline \"Hello, World!\";"
   },
   {
     "name": "F# (Mono 6.4.0.179)",
     "id": 67,
-    "codemirror": "fsharp",
+    "code_mirror_mode": "fsharp",
     "content": "printfn \"Hello, World!\""
   },
   {
     "name": "Julia (1.1.0)",
     "id": 85,
-    "codemirror": "julia",
+    "code_mirror_mode": "julia",
     "content": "println(\"Hello, World!\")"
   },
   {
     "name": "Prolog (SWI 7.6.4)",
     "id": 77,
-    "codemirror": "prolog",
+    "code_mirror_mode": "prolog",
     "content": ":- initialization(main).\nmain :-\n    write('Hello, World!'), nl,\n    halt."
   },
   {
     "name": "Scheme (Chez 9.5)",
     "id": 80,
-    "codemirror": "scheme",
+    "code_mirror_mode": "scheme",
     "content": "(display \"Hello, World!\")\n(newline)"
   },
   {
     "name": "Visual Basic (.NET Core 3.1)",
     "id": 86,
-    "codemirror": "vb",
+    "code_mirror_mode": "vb",
     "content": "Module Hello\n    Sub Main()\n        Console.WriteLine(\"Hello, World!\")\n    End Sub\nEnd Module"
   },
   {
     "name": "Dart (2.7.0)",
     "id": 87,
-    "codemirror": "dart",
+    "code_mirror_mode": "dart",
     "content": "void main() {\n  print('Hello, World!');\n}"
   },
   {
     "name": "HTML (for iframe preview)",
     "id": -1,
-    "codemirror": "htmlmixed",
+    "code_mirror_mode": "htmlmixed",
     "content": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Hello, World!</title>\n</head>\n<body>\n  <h1>Hello, World!</h1>\n</body>\n</html>"
   }
 ]
