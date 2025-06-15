@@ -26,7 +26,7 @@
   {
     "name": "JavaScript (Node.js 12.14.0)",
     "id": 63,
-    "code_mirror_mode": "javascript",
+    "code_mirror_mode": "text/javascript",
     "content": "console.log(\"Hello, World!\");"
   },
   {
